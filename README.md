@@ -1,4 +1,4 @@
-# test
+# PowerPredictiveBiomarker
 
 The tool is for power calculation of predictive biomarker. Calculation requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).
 
