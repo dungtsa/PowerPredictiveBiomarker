@@ -1,0 +1,80 @@
+---
+title: Statistical Power Calculaiton for Predictive Biomarker in Retrospective Study
+author: "Chen et al."
+output:
+  word_document: default
+header-includes: \usepackage{bbm}
+---
+========================================================
+
+```{r library, echo=FALSE,comment="",warning=FALSE,message=FALSE}
+
+library(shiny)
+library(knitr)
+library(rmarkdown)
+require(powerSurvEpi)
+options(scipen=3)
+```
+
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width=60)
+opts_chunk$set(comment = "", warning = FALSE, message = FALSE, echo = TRUE, tidy = FALSE, size="small",fig.height=5)
+
+```
+
+
+```{r, echo=FALSE}
+tmp99<-get.result()
+
+```
+
+#Sample Size Justification 
+```{r, echo=FALSE, results='asis'}
+cat(tmp99$a6)
+```
+
+#Table 1A: Subgroup Median Survival Time (Raw) 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$mst.table.more.org)
+```
+
+#Table 1B: Overall Median Survival Time (Raw) 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$MST.marginal.org)
+```
+
+#Table 1C: Subgroup Median Survival Time (Scaled) 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$mst.table.more.scale)
+```
+
+#Table 1D: Overall Median Survival Time (Scaled) 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$MST.marginal.scale)
+```
+
+#Table 2: Subgroup Proportions 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$prop.subgroup)
+```
+
+#Table 3: Subgroup Sample Size 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$n.subgroup)
+```
+
+#Table 4: Subgroup Censoring Rate 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$censoring.rate.table)
+```
+
+#Table 5: Statistical Power 
+```{r, echo=FALSE, results='asis'}
+kable(tmp99$power.table)
+```
+
+#References 
+```{r, echo=FALSE, results='asis'}
+cat(tmp99$a7)
+```
