@@ -1,4 +1,4 @@
-#' Power calcuation of predictive predictive biomarker. Calculaiton requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).
+#' Power calculation of predictive biomarker. Calculation requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).
 #'
 #' @description Power calcuation of predictive predictive biomarker in prospective and retrospective studies.
 #' @param n.list sample size

@@ -2,7 +2,7 @@
 % Please edit documentation in R/predictive_power_shiny_clean.R
 \name{predictive.power.fun}
 \alias{predictive.power.fun}
-\title{Power calcuation of predictive predictive biomarker. Calculaiton requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).}
+\title{Power calculation of predictive biomarker. Calculation requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).}
 \usage{
 predictive.power.fun(n.list = c(300), mst.data = data.frame(C_low = c(6.2,
   6.2), C_high = c(3.1, 6.2), T_low = c(6.2, 6.2), T_high = c(7, 6.2)),
