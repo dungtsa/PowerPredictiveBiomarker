@@ -26,3 +26,5 @@ Snapshot of shiny app: initial
 ![snapshot of shiny app: initial](inst/img/powershiny1.png)
 Snapshot of shiny app: output
 ![snapshot of shiny app: output](inst/img/powershiny2.png)
+Snapshot of shiny app: output in Word format (through "download" button)
+![snapshot of shiny app: output](inst/img/powershiny3.png)
