@@ -1,6 +1,6 @@
 # test
 
-The tool is for power calcuation of predictive predictive biomarker. Calculaiton requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).
+The tool is for power calculation of predictive biomarker. Calculation requires a series of parameters to to determine subgroup proportion and subgroup censoring rate. Depending on study type (prospective or retrospective study), parameter setting is different (check the reference).
 
 ## Features
 
@@ -22,5 +22,5 @@ devtools::install_github("rstudio/PowerPredictiveBiomarker")
 require("PowerPredictiveBiomarker")
 PowerPredictiveBiomarker.shiny()
 ```
-![World cup timeline](inst/img/worldcup.png)
+![snapshot of shiny app](inst/img/worldcup.png)
 
