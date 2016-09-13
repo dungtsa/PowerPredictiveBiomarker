@@ -22,5 +22,7 @@ devtools::install_github("rstudio/PowerPredictiveBiomarker")
 require("PowerPredictiveBiomarker")
 PowerPredictiveBiomarker.shiny()
 ```
+Snapshot of shiny app: initial 
 ![snapshot of shiny app: initial](inst/img/powershiny1.png)
+Snapshot of shiny app: output
 ![snapshot of shiny app: output](inst/img/powershiny2.png)
