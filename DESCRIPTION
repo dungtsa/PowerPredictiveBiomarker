@@ -1,0 +1,12 @@
+Package: PowerPredictiveBiomarker
+Type: Package
+Title: power calculations in predictive biomarker studies in survival data
+Version: 0.1.0
+Authors@R: person("Dung-Tsa", "Chen", email = "Dung-Tsa.Chen@moffitt.org", role = c("aut", "cre"))
+Description: An tool to generate a statistical plan
+    for power calculation of predictive biomarker validation.
+Reference: Strategies for power calculations in predictive biomarker studies in survival data; Chen et al; Oncotarget; 2016; in press
+Depends: 	R(>= 3.2), shiny, knitr, rmarkdown, survival
+License: Moffitt Cancer Center
+LazyData: TRUE
+RoxygenNote: 5.0.1
